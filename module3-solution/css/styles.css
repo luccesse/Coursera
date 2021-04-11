@@ -35,6 +35,7 @@ border-radius: 0px;
 #bs-example-navbar-collapse-1{
 
 	padding: 0px;
+	border:0px;
 }
 .navbar-nav{
 text-align: center;
@@ -44,10 +45,20 @@ margin: 0px;
 }
 
 
-.col-md-12, .col-lg-12, .col-xs-12{
+.col-sm-6, .col-md-4, .col-xs-12{
 
-background-color: grey;
+padding:20px;
+margin-bottom: 20px
+
 }
+
+.lorem{
+
+	background-color: grey;
+	padding: 2px;
+}
+
+
 
 hr{
 
@@ -60,3 +71,4 @@ body .container {
 
 	margin-top: 10px
 }
+
